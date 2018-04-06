@@ -17,7 +17,7 @@ The output file should have the following naming convention: [Date]_SearchKeywor
 # Application:
 ¥	KeywordReveneue.java
 ¥	KeywordUtil.java
-  KeywordUtil.test
+¥ KeywordUtilTest.java
 
 # Scaling:
 Scaling can be done with MapReduce Program
