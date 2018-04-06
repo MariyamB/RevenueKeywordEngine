@@ -31,6 +31,9 @@ There are some records which had a referrer did not have product list.
 Some records which had a product list with revenue , had no referrer values , but had event list which does not have a search keyword.
 So ,for this purpose I did some data checks which involved not printing records which did not have a referrer.
 
+To Execute the Program
+Run 
+java -jar out/artifacts/Keyword_jar/Keyword.jar data.sql
 
 
 
