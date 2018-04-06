@@ -1,4 +1,4 @@
-Problem Statement
+# Problem Statement
 How much revenue is the client getting from external Search Engines, such as Google, Yahoo and MSN, and which keywords are performing the best based on revenue?
 
 # Development Requirements
@@ -17,6 +17,7 @@ The output file should have the following naming convention: [Date]_SearchKeywor
 # Application:
 ¥	KeywordReveneue.java
 ¥	KeywordUtil.java
+  KeywordUtil.test
 
 # Scaling:
 Scaling can be done with MapReduce Program
@@ -35,6 +36,5 @@ So ,for this purpose I did some data checks which involved not printing records 
 Run 
 java -jar out/artifacts/Keyword_jar/Keyword.jar data.sql
 
-
-
-
+# Limitations:
+Revenue has not been sorted in descending order
